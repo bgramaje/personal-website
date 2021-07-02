@@ -1,0 +1,32 @@
+.footer{
+    color: #202020;
+}
+
+.iconWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px !important;
+}
+
+.iconWrapper div {
+    margin: 40px 60px;
+}
+
+.endingTittle{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+.linkWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.linkWrapper p {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}

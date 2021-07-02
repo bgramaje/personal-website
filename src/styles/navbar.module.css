@@ -1,0 +1,21 @@
+.logo {
+    width: 150px;
+}
+
+.navbarWrapper{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+}
+
+.iconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}

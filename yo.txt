@@ -1,0 +1,55 @@
+<div className={styles.graphWrapper}>
+                    <CircularProgressbarWithChildren value={95}
+                        styles={buildStyles({
+                            // Rotation of path and trail, in number of turns (0-1)
+                            rotation: 0.25,
+                            // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                            strokeLinecap: 'butt',
+                            pathTransitionDuration: 1,
+                            pathColor: `rgba(32, 32, 32, ${100 / 100})`,
+                        })}>
+                        { }
+                        <img
+                            style={{ width: 50, marginTop: -5 }}
+                            src={svgHTML}
+                            alt="HTML-logo"
+                        />
+                        <p className={styles.subtitlePie}>HTML</p>
+                    </CircularProgressbarWithChildren>
+
+                    <CircularProgressbarWithChildren value={85}
+                        styles={buildStyles({
+                            // Rotation of path and trail, in number of turns (0-1)
+                            rotation: 0.25,
+                            // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                            strokeLinecap: 'butt',
+                            pathTransitionDuration: 1,
+                            pathColor: `rgba(32, 32, 32, ${100 / 100})`,
+                        })}>
+                        { }
+                        <img
+                            style={{ width: 50, marginTop: -5 }}
+                            src={svgHTML}
+                            alt="CSS-logo"
+                        />
+                        <p className={styles.subtitlePie}>CSS</p>
+                    </CircularProgressbarWithChildren>
+
+                    <CircularProgressbarWithChildren value={75}
+                        styles={buildStyles({
+                            // Rotation of path and trail, in number of turns (0-1)
+                            rotation: 0.25,
+                            // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                            strokeLinecap: 'butt',
+                            pathTransitionDuration: 1,
+                            pathColor: `rgba(32, 32, 32, ${100 / 100})`,
+                        })}>
+                        { }
+                        <img
+                            style={{ width: 50, marginTop: -5 }}
+                            src={svgJS}
+                            alt="JS-logo"
+                        />
+                        <p className={styles.subtitlePie}>Javascript</p>
+                    </CircularProgressbarWithChildren>
+                </div>
